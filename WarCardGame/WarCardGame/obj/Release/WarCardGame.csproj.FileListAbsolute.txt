@@ -1,0 +1,4 @@
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame\Bin\Release\WarCardGame.dll
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame\Bin\Release\WarCardGame.pdb
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame\obj\Release\WarCardGame.dll
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame\obj\Release\WarCardGame.pdb

@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CF54150E-C2ED-437C-A793-8D0967C6605B}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WarCardGame.UI</RootNamespace>
+    <AssemblyName>WarCardGame.UI</AssemblyName>
+    <TargetFrameworkIdentifier>WindowsPhone</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>WarCardGame.UI_$(Configuration)_$(Platform).xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>WarCardGame.UI.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|ARM' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\ARM\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|ARM' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\ARM\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomizeMenu.xaml.cs">
+      <DependentUpon>CustomizeMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LocalizedStrings.cs" />
+    <Compile Include="GameBoard.xaml.cs">
+      <DependentUpon>GameBoard.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.xaml.cs">
+      <DependentUpon>MainMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerNameInput.xaml.cs">
+      <DependentUpon>PlayerNameInput.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\AppResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="CustomizeMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GameBoard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PlayerNameInput.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\CardDecks\Ocean\COPYRIGHT" />
+    <None Include="Resources\CardDecks\Ocean\Thumbs.db" />
+    <None Include="Resources\CardDecks\StandardDeck\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\AlignmentGrid.png" />
+    <Content Include="Assets\ApplicationIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileMedium.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\IconicTileMediumLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\IconicTileSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\arrow-pointing-down.jpg" />
+    <Content Include="Resources\cardBackGround.png" />
+    <Content Include="Resources\CardDecks\CardFront\card back black_0.png" />
+    <Content Include="Resources\CardDecks\CardFront\card back blue_0.png" />
+    <Content Include="Resources\CardDecks\CardFront\card back green_0.png" />
+    <Content Include="Resources\CardDecks\CardFront\card back orange_0.png" />
+    <Content Include="Resources\CardDecks\CardFront\card back purple_0.png" />
+    <Content Include="Resources\CardDecks\CardFront\card back red_0.png" />
+    <Resource Include="Resources\CardDecks\Ocean\01c.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\01d.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\01h.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\01s.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\02c.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\02d.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\02h.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\02s.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\03c.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\03d.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\03h.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\03s.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\04c.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\04d.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\04h.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\04s.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\05c.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\05d.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\05h.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\05s.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\06c.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\06d.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\06h.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\06s.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\07c.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\07d.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\07h.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\07s.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\08c.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\08d.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\08h.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\08s.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\09c.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\09d.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\09h.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\09s.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\10c.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\10d.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\10h.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\10s.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\11c.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\11d.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\11h.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\11s.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\12c.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\12d.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\12h.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\12s.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\13c.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\13d.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\13h.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\13s.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\back001.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\back002.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\back003.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\back004.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\back005.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\back006.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\back007.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\back008.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\back009.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\back010.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\back011.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\back012.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\back013.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\bottom01-n.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\bottom01.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\bottom02-n.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\bottom02.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\bottom03-n.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\bottom03.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\bottom04-n.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\bottom04.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\bottom05-n.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\bottom05.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\bottom06-n.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\bottom06.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\bottom07-n.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\bottom07.gif" />
+    <Content Include="Resources\CardDecks\Ocean\config.txt" />
+    <Resource Include="Resources\CardDecks\Ocean\l01-n.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\l01.gif" />
+    <Resource Include="Resources\CardDecks\Ocean\l02.gif" />
+    <Content Include="Resources\CardDecks\StandardDeck\10_of_clubs.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\10_of_diamonds.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\10_of_hearts.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\10_of_spades.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\2_of_clubs.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\2_of_diamonds.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\2_of_hearts.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\2_of_spades.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\3_of_clubs.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\3_of_diamonds.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\3_of_hearts.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\3_of_spades.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\4_of_clubs.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\4_of_diamonds.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\4_of_hearts.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\4_of_spades.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\5_of_clubs.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\5_of_diamonds.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\5_of_hearts.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\5_of_spades.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\6_of_clubs.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\6_of_diamonds.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\6_of_hearts.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\6_of_spades.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\7_of_clubs.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\7_of_diamonds.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\7_of_hearts.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\7_of_spades.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\8_of_clubs.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\8_of_diamonds.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\8_of_hearts.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\8_of_spades.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\9_of_clubs.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\9_of_diamonds.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\9_of_hearts.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\9_of_spades.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\ace_of_clubs.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\ace_of_diamonds.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\ace_of_hearts.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\ace_of_spades.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\ace_of_spades2.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\black_joker.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\jack_of_clubs.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\jack_of_clubs2.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\jack_of_diamonds.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\jack_of_diamonds2.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\jack_of_hearts.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\jack_of_hearts2.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\jack_of_spades.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\jack_of_spades2.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\king_of_clubs.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\king_of_clubs2.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\king_of_diamonds.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\king_of_diamonds2.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\king_of_hearts.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\king_of_hearts2.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\king_of_spades.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\king_of_spades2.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\queen_of_clubs.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\queen_of_clubs2.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\queen_of_diamonds.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\queen_of_diamonds2.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\queen_of_hearts.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\queen_of_hearts2.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\queen_of_spades.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\queen_of_spades2.png" />
+    <Content Include="Resources\CardDecks\StandardDeck\red_joker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AppResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WarCardGame\WarCardGame.csproj">
+      <Project>{A4A7194A-6FAF-4C36-8706-9CD74A0DA6B4}</Project>
+      <Name>WarCardGame</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+</Project>

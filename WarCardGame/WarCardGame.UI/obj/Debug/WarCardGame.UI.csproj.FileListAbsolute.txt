@@ -1,0 +1,72 @@
+C:\Users\David\documents\visual studio 2012\Projects\WarCardGame\WarCardGame.UI\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\David\documents\visual studio 2012\Projects\WarCardGame\WarCardGame.UI\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\David\documents\visual studio 2012\Projects\WarCardGame\WarCardGame.UI\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\David\documents\visual studio 2012\Projects\WarCardGame\WarCardGame.UI\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\David\documents\visual studio 2012\Projects\WarCardGame\WarCardGame.UI\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\David\documents\visual studio 2012\Projects\WarCardGame\WarCardGame.UI\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\David\documents\visual studio 2012\Projects\WarCardGame\WarCardGame.UI\Bin\Debug\WarCardGame.UI.dll
+C:\Users\David\documents\visual studio 2012\Projects\WarCardGame\WarCardGame.UI\Bin\Debug\WarCardGame.UI.pdb
+C:\Users\David\documents\visual studio 2012\Projects\WarCardGame\WarCardGame.UI\Bin\Debug\AppManifest.xaml
+C:\Users\David\documents\visual studio 2012\Projects\WarCardGame\WarCardGame.UI\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\David\documents\visual studio 2012\Projects\WarCardGame\WarCardGame.UI\Bin\Debug\WarCardGame.UI_Debug_AnyCPU.xap
+C:\Users\David\documents\visual studio 2012\Projects\WarCardGame\WarCardGame.UI\Bin\Debug\WarCardGame.dll
+C:\Users\David\documents\visual studio 2012\Projects\WarCardGame\WarCardGame.UI\Bin\Debug\WarCardGame.pdb
+C:\Users\David\documents\visual studio 2012\Projects\WarCardGame\WarCardGame.UI\obj\Debug\WarCardGame.UI.csprojResolveAssemblyReference.cache
+C:\Users\David\documents\visual studio 2012\Projects\WarCardGame\WarCardGame.UI\obj\Debug\App.g.cs
+C:\Users\David\documents\visual studio 2012\Projects\WarCardGame\WarCardGame.UI\obj\Debug\WarCardGame.UI.g.resources
+C:\Users\David\documents\visual studio 2012\Projects\WarCardGame\WarCardGame.UI\obj\Debug\WarCardGame.UI.Resources.AppResources.resources
+C:\Users\David\documents\visual studio 2012\Projects\WarCardGame\WarCardGame.UI\obj\Debug\WarCardGame.UI.csproj.GenerateResource.Cache
+C:\Users\David\documents\visual studio 2012\Projects\WarCardGame\WarCardGame.UI\obj\Debug\WarCardGame.UI.dll
+C:\Users\David\documents\visual studio 2012\Projects\WarCardGame\WarCardGame.UI\obj\Debug\WarCardGame.UI.pdb
+C:\Users\David\documents\visual studio 2012\Projects\WarCardGame\WarCardGame.UI\obj\Debug\XapCacheFile.xml
+C:\Users\David\documents\visual studio 2012\Projects\WarCardGame\WarCardGame.UI\obj\Debug\GameBoard.g.cs
+C:\Users\student\Desktop\WarCardGame\WarCardGame.UI\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\student\Desktop\WarCardGame\WarCardGame.UI\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\student\Desktop\WarCardGame\WarCardGame.UI\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\student\Desktop\WarCardGame\WarCardGame.UI\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\student\Desktop\WarCardGame\WarCardGame.UI\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\student\Desktop\WarCardGame\WarCardGame.UI\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\student\Desktop\WarCardGame\WarCardGame.UI\Bin\Debug\WarCardGame.UI.dll
+C:\Users\student\Desktop\WarCardGame\WarCardGame.UI\Bin\Debug\WarCardGame.UI.pdb
+C:\Users\student\Desktop\WarCardGame\WarCardGame.UI\Bin\Debug\AppManifest.xaml
+C:\Users\student\Desktop\WarCardGame\WarCardGame.UI\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\student\Desktop\WarCardGame\WarCardGame.UI\Bin\Debug\WarCardGame.UI_Debug_AnyCPU.xap
+C:\Users\student\Desktop\WarCardGame\WarCardGame.UI\Bin\Debug\WarCardGame.dll
+C:\Users\student\Desktop\WarCardGame\WarCardGame.UI\Bin\Debug\WarCardGame.pdb
+C:\Users\student\Desktop\WarCardGame\WarCardGame.UI\obj\Debug\WarCardGame.UI.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\WarCardGame\WarCardGame.UI\obj\Debug\App.g.cs
+C:\Users\student\Desktop\WarCardGame\WarCardGame.UI\obj\Debug\GameBoard.g.cs
+C:\Users\student\Desktop\WarCardGame\WarCardGame.UI\obj\Debug\WarCardGame.UI.g.resources
+C:\Users\student\Desktop\WarCardGame\WarCardGame.UI\obj\Debug\WarCardGame.UI.Resources.AppResources.resources
+C:\Users\student\Desktop\WarCardGame\WarCardGame.UI\obj\Debug\WarCardGame.UI.csproj.GenerateResource.Cache
+C:\Users\student\Desktop\WarCardGame\WarCardGame.UI\obj\Debug\WarCardGame.UI.dll
+C:\Users\student\Desktop\WarCardGame\WarCardGame.UI\obj\Debug\WarCardGame.UI.pdb
+C:\Users\student\Desktop\WarCardGame\WarCardGame.UI\obj\Debug\XapCacheFile.xml
+C:\Users\student\Desktop\WarCardGame\WarCardGame.UI\obj\Debug\MainMenu.g.cs
+C:\Users\student\Desktop\WarCardGame\WarCardGame.UI\obj\Debug\PlayerNameInput.g.cs
+C:\Users\student\Desktop\WarCardGame\WarCardGame.UI\obj\Debug\CustomizeMenu.g.cs
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame.UI\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame.UI\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame.UI\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame.UI\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame.UI\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame.UI\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame.UI\Bin\Debug\WarCardGame.UI.dll
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame.UI\Bin\Debug\WarCardGame.UI.pdb
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame.UI\Bin\Debug\AppManifest.xaml
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame.UI\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame.UI\Bin\Debug\WarCardGame.UI_Debug_AnyCPU.xap
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame.UI\Bin\Debug\WarCardGame.dll
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame.UI\Bin\Debug\WarCardGame.pdb
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame.UI\obj\Debug\WarCardGame.UI.csprojResolveAssemblyReference.cache
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame.UI\obj\Debug\App.g.cs
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame.UI\obj\Debug\CustomizeMenu.g.cs
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame.UI\obj\Debug\GameBoard.g.cs
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame.UI\obj\Debug\MainMenu.g.cs
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame.UI\obj\Debug\PlayerNameInput.g.cs
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame.UI\obj\Debug\WarCardGame.UI.g.resources
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame.UI\obj\Debug\WarCardGame.UI.Resources.AppResources.resources
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame.UI\obj\Debug\WarCardGame.UI.csproj.GenerateResource.Cache
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame.UI\obj\Debug\WarCardGame.UI.dll
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame.UI\obj\Debug\WarCardGame.UI.pdb
+C:\Users\Dave\OneDrive\Intro to mobil projects\WarCardGame\WarCardGame\WarCardGame.UI\obj\Debug\XapCacheFile.xml
